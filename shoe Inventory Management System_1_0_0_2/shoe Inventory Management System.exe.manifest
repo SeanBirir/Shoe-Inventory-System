@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="shoe Inventory Management System.exe" version="1.0.0.2" publicKeyToken="5bc1a2e54d8e1868" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="shoe Inventory Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="shoe Inventory Management System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="shoe Inventory Management System.exe" size="2041312">
+      <assemblyIdentity name="shoe Inventory Management System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LXmyGPB2yqg5htJEd2zphOWf6+5lwLzLh0rRPw0uAjQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="50141">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NHSqgmbOpfRHPvtJcZVYbkFiB3gtWgtGtY8uMy88qxo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Login shoe.accdb" size="786432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z14wJc991K7Q2kxlbSu6FUbRBtsyBUCGigMzgbtRteU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="shoe Inventory Management System.exe.config" size="527">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zvKKSr0N7Vjugj2NdaYXFX9gREM4E4Nqbd/8a5XZaXE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-NRRNAIJ\birir" issuerKeyHash="c4ea30f3f77d214761129ebed8ec1fe32a9afa35" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HMSBtkbSnYEub7aqrs2Ehr3gnky7B7ESw2SdvDcarPA=</DigestValue></Reference></SignedInfo><SignatureValue>IOvZr/pZmVyH+dpurOHvpA9SOu+vA6mph/j2ocHS48ni3ANoOAB/jk9hReBYndKROT3207K823OUbqTypud6kk3FNdERqt/7RWpn9cNypfrvQCMwSOoupsd2H5ThRU80zAxvoSIxe1OY/lXJm313ChDMT+8vjdRwm69HBOHnTWw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>4PpWZ9qi3mP4IHLVyPnfk6xos4My+U/P2BS8DRHYW5oo8b7ABFGNRNC9Za/uGHVAig4bJNStDhxUl3MCM0neMTkD8MGZ6lSsblB3zJNGlofyFgKO42MPhlgalrlI9A9Ae45VpcqMOqkDtfKOeW1X1Md8owngJJemf7fv4P3lv0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f0ac1a37bc9d64c312b107bb4c9ee0bd8684cdaeaab66f2e819dd246b681c41c" Description="" Url=""><as:assemblyIdentity name="shoe Inventory Management System.exe" version="1.0.0.2" publicKeyToken="5bc1a2e54d8e1868" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-NRRNAIJ\birir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AeamVShJ9cGjOtsV/FdIlPDlGnSKZrkdiFvESw2LXC4=</DigestValue></Reference></SignedInfo><SignatureValue>0HtieFQvpeiP1cA1fKQWFcFJRy8eluJKE+hy+3KeOIMx0YwP1ruoTPTMQ7fsLmAsoO1NxUbotB5/VAcQPM7aMXEX39jNHabzu9lZELiMbQ3LoUnbY0rIHsjfiVsl9uLuwt1604IaJRVURFX8c/hej6uMlkx3+ZofqDIep2dbjQY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>4PpWZ9qi3mP4IHLVyPnfk6xos4My+U/P2BS8DRHYW5oo8b7ABFGNRNC9Za/uGHVAig4bJNStDhxUl3MCM0neMTkD8MGZ6lSsblB3zJNGlofyFgKO42MPhlgalrlI9A9Ae45VpcqMOqkDtfKOeW1X1Md8owngJJemf7fv4P3lv0U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQG4xv7QGhI4pAuP300wwLEzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4AUgBSAE4AQQBJAEoAXABiAGkAcgBpAHIwHhcNMjQwMTE1MjAxNjQ2WhcNMjUwMTE1MDIxNjQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAE4AUgBSAE4AQQBJAEoAXABiAGkAcgBpAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAOD6Vmfaot5j+CBy1cj535OsaLODMvlPz9gUvA0R2FuaKPG+wARRjUTQvWWv7hh1QIoOGyTUrQ4cVJdzAjNJ3jE5A/DBmepUrG5Qd8yTRpaH8hYCjuNjD4ZYGpa5SPQPQHuOVaXKjDqpA7XyjnltV9THfKMJ4CSXpn+37+D95b9FAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGura4DJDwubJk4uWjv4hK6VnNtsS9lFE1f7e3YeP+zDUeJhHurQl1gjDMsvJBHC+TZO3e8AG33cTlfJ8WDgvsjujvMkvcyPn5QEn3pd7j3HI9O3JHs734X3Ba2b2WkW6C7JHuXCsQKHiw9hdicRi39iDI9yL/ZTSTlEd2/x+3Y0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
